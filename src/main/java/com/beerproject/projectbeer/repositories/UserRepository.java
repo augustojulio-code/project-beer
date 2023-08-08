@@ -2,8 +2,8 @@ package com.beerproject.projectbeer.repositories;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.beerproject.projectbeer.domain.Beer;
+import com.beerproject.projectbeer.domain.User;
 
-public interface BeerRepository extends MongoRepository<Beer, String> {
+public interface UserRepository extends MongoRepository<User, String> {
 
 }
