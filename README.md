@@ -8,7 +8,7 @@
 </p>
 
 ## About Project Beer
-    This is a rest API for a mapping application of the best rated beers in a given region based on location in google maps coordinates.
+* This is a rest API for a mapping application of the best rated beers in a given region based on location in google maps coordinates.
 
 ## System architecture
 <p align="center">
