@@ -12,7 +12,7 @@
 
 ## System architecture
 <p align="center">
-    <img src="https://github.com/augustojulio-code/imagens_arquiteturas_readme/blob/master/arquiteturaProjectBeer.jpeg" width="800px" height="600px"/>
+    <img src="https://github.com/augustojulio-code/imagens_arquiteturas_readme/blob/master/arquiteturaProjectBeer.jpeg" width="600px" height="400px"/>
 </p>
 
 ## Project Status
