@@ -33,7 +33,19 @@ public class BeerService {
 
     public void deleteById(String id) {
         findById(id);
-
         repository.deleteById(id);
+    }
+
+    public Beer update(Beer obj) {
+        Beer newObj = findById(obj.getId());
+        updateData(newObj, obj);
+        return repository.save(newObj);
+    }
+
+    public void updateData(Beer newObj, Beer obj) {
+        newObj.setName(obj.getName());
+        newObj.setBrand(obj.getBrand());
+        newObj.setStyle(obj.getStyle());
+        newObj.setAlcoholContent(obj.getAlcoholContent());
     }
 }
