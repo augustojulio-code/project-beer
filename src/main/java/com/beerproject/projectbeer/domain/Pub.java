@@ -7,9 +7,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Pub {
 
     @Id
-    public String id;
-    public String name;
-    public String locate;
+    private String id;
+    private String name;
+    private String locate;
 
     public Pub(String id, String name, String locate) {
         this.id = id;

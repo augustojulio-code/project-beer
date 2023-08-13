@@ -1,5 +1,9 @@
 package com.beerproject.projectbeer.repositories;
 
-public class PubRepository {
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.beerproject.projectbeer.domain.Pub;
+
+public interface PubRepository extends MongoRepository<Pub, String> {
 
 }
