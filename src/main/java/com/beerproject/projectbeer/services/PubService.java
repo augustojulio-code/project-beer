@@ -31,4 +31,9 @@ public class PubService {
         Optional<Pub> obj = repository.findById(id);
         return obj.orElseThrow();
     }
+
+    public void deleteById(String id) {
+        findById(id);
+        repository.deleteById(id);
+    }
 }
