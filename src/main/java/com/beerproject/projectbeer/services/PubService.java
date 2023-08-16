@@ -18,4 +18,10 @@ public class PubService {
 
         return repository.findAll();
     }
+
+    public Pub insert(Pub obj) {
+
+        return repository.insert(obj);
+
+    }
 }
